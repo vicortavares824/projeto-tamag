@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tamagmenu.css">
+    <link rel="stylesheet" href="/css/tamaglogin.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
+    <title>Tamag</title>
+</head>
+<script lang="javascript" src="/tamagjs/tamagjs.js"></script>
+<body>
+    <main class="fundo">
+        <nav class="menu">
+            <header class="menu_img">
+              <a href="index.html"><img src="/img/tamaglogo.png" alt="tamag"></a>
+            </header>
+            <div class="menu_login">
+                <div class="input">
+                    <div class="perfil"><img src="/img/fotoperfil.png" alt="perfil"></div>
+                    <div class="senha"><input type="email" placeholder="Email" id="login"></div>
+                </div>
+                <div class="input">
+                    <div class="perfil"><img src="/img/fotosenha.png" alt="senha"></div>
+                    <div class="senha"><input type="password" placeholder="Password" id="senha"></div>
+                </div>
+                <div class="checkbox_menu">
+                    <div class="input_checkbox"><input type="checkbox" name="lembrar" id="verificaçao">Lembrar</div>
+                    <div class="esqueci"><a href="#">Esqueci minha senha</a></div>
+                </div>
+                <div class="input_botao">
+                    <button class="botao_cadastra"><a href="">Cadastrar</a></button>
+                    <button class="botao_login" onclick="logar(); return false"><a href="">Login</a></button>
+                </div>
+            </div>
+        </nav>
+    </main>
+</body>
+</html>

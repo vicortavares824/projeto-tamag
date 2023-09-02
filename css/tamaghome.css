@@ -1,0 +1,32 @@
+.tela207{
+    background-color: #013366;
+    padding: 10px 0px;
+    text-align: center;
+}
+.imgtamag{
+    background-color: white;
+    padding: 30px 70px;
+    justify-content: space-evenly;
+}
+.hl-esquerdo{
+    display:block;
+    margin: 30px 20px;
+    padding: 20px;
+}
+.hl-home-esquerdo{
+    display:inline-block;
+}
+.hl-texto{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.hl-esquerdo:hover{
+    background-color:#f1f1f1;
+    border-radius: 10pc;
+    transition: 0.5s;
+}
+.perfil-pfcipal{
+    padding: 20px;
+    margin-top: 30px;
+}

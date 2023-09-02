@@ -1,0 +1,52 @@
+.perfil-2{
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+}
+.perfil-20{
+    display: flex;
+    justify-content: space-evenly;
+}
+.perfil-10{
+    width: 100%;
+    background-color: #ECECEC ;
+}
+.perfil-13{
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+}
+.perfil-principal{
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+.perfil-pf1{
+    margin: 20px 5px 0px 0px;
+    padding: 5px;
+    font-size: 25px;
+    font-family:fantasy ;
+}
+.perfil-pf2{
+    display:inline;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 1px black solid;
+}
+.conteinar-perfil{
+    display: flex;
+    justify-content: space-between;
+}
+.conteinar-perfil2{
+        display: block;
+        margin: 30px;
+        padding: 60px;
+        justify-content: center;
+}
+.bh{
+    text-align: center;
+}

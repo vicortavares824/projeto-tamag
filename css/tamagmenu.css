@@ -1,0 +1,67 @@
+.input{
+    display: block;
+    background-color: #002093;
+    margin: 10px 40px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.perfil{
+    margin: 2px;
+    padding: 3px;
+}
+.senha{
+    margin-top: 10px;
+}
+.senha input{
+    border: none;
+    background-color: #002093;
+    color: white;
+}
+.senha input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.checkbox_menu{
+    margin: 20px 60px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.input_checkbox{
+    color: white;
+}
+.esqueci a{
+    color: brown;
+}
+.input_botao{
+    justify-content: space-evenly;
+}
+.botao_cadastra{
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: red;
+    font: 500;
+    font-size: 20px;
+}
+.botao_login{
+    margin: 0px 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    font: 500;
+    font-size: 20px;
+}
+.botao_cadastra:hover{
+    background-color: blue;
+    color:white;
+}
+.botao_login:hover{
+    background-color: red;
+    color: white;
+}
