@@ -41,12 +41,12 @@ body{
 }
 .painel1{
     width: 100%;
-    padding: 3px;
+    padding: 10px;
     display: block;
-    
+    justify-items: auto;
     border: 1px solid rgb(177, 177, 177);
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 input{
     border: none;
@@ -67,4 +67,8 @@ input{
 .btn:hover{
     background-color: #AB1F25;
     color: white;
+}
+.central{
+    display: block;
+    margin-top: 50px;
 }
