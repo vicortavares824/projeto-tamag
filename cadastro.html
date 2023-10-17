@@ -6,22 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamag</title>
     <link rel="stylesheet" href="csscadastro/cadastro.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
 </head>
 
 <body>
     <form action="">
-    <header class="tela207">
-        <a href="cadastro.html"><img src="/img/tamaglogo.png" alt="telatamag" class="imgtamag" width="150px"></a>
-    </header>
-    <div>
+        <header class="tela207">
+            <a href="cadastro.html"><img src="/img/tamaglogo.png" alt="telatamag" class="imgtamag" width="150px"></a>
+        </header>
+        <div class="telaprim">
 
-        <div class="cadastro002">
-            <input type="text">
-        </div>
-    
-    </div>
-     
+            <div class="cadastro002">
+                <div class="central">
+                    <div class="divits">
+                        <div class="painel1">
+                            <label for="nomeresp">E-mail:</label>
+                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                        </div>
+                        <div class="painel1">
+                            <label for="nomeresp">Senha:</label>
+                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                        </div>
+                        <div class="painel1">
+                            <label for="nomeresp">Confirma Senha:</label>
+                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                        </div>
+                        <div class="painel1">
+                            <label for="nomeresp">Nome Responsavel:</label>
+                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                        </div>
+                        <div class="painel1">
+                            <label for="cpfresp">CPF Responsavel:</label>
+                            <input type="number" id="cpfresp" placeholder="CPF..." min="0" max="10">
+                        </div>
+                        <div class="painel1">
+                            <label for="nomealuno">Nome Aluno:</label>
+                            <input type="text" id="nomealuno" placeholder="Aluno..." maxlength="30">
+                        </div>
+                        <div class="painel1">
+                            <label for="cpfaluno">CPF Aluno:</label>
+                            <input type="number" id="cpfaluno" placeholder="CPF..." min="0" max="10">
+                        </div>
+                    </div>
+                    <div class="divits">
+                        <div class="painel1">
+                            <label for="endre">Endereço:</label>
+                            <input type="text" id="endre" placeholder="Ex:Rua jose fino...">
+                        </div>
+                        <div class="painel1">
+                            <label for="cont">Contato:</label>
+                            <input type="tel" id="cont" placeholder="(xx) xxxx-xxxx" maxlength="11">
+                        </div>
+                        <div class="painel1">
+                            <label for="escol">Escola:</label>
+                            <input type="text" id="escol" placeholder="Ex:escola antonio" maxlength="40">
+                        </div>
+                        <div class="painel1">
+                            <label for="peri">Serie:</label>
+                            <input type="text" id="peri" placeholder="5B" size="1" maxlength="2">
+                        </div class="painel1">
+                        <div class="painel1">
+                            <label for="horaent">Horario da entrada:</label>
+                            <input type="time" id="horaent" placeholder="Ex:10:30">
+                        </div>
+                        <div class="painel1">
+                            <label for="horasaid">Horario da saida:</label>
+                            <input type="time" id="horasaid" placeholder="Ex:18:30">
+                        </div>
+                        <div class="painel1">
+                            <label for="pagm">Data de pagamento:</label>
+                            <input type="date" id="pagm" placeholder="Ex:10/01">
+                        </div>
+                    </div>
+                    <div class="divits20">
+                        <label for="obs">Obesevaçoes</label>
+                        <textarea name="OBS" id="obs" cols="30" rows="3"></textarea>
+                    </div>
+                    <button class="btn"><a href="Tamag.html">Cadastra</a></button>
+                </div>
+            </div>
+
 
 
     </form>
