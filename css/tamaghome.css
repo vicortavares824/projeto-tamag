@@ -9,11 +9,13 @@
 }
 .hl-esquerdo{
     display:block;
-    margin: 30px 20px;
+
     padding: 20px;
 }
 .hl-home-esquerdo{
     display:inline-block;
+    display: flex;
+    justify-content: space-evenly;
 }
 .hl-texto{
     display: block;

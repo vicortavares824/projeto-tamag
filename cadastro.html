@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="csscadastro/cadastro.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
-    <link rel="import" href="tamagjs/castrojs.js">
+    <script src="./tamagjs/castrojs.js" defer></script>
 </head>
 
 <body>
@@ -22,16 +22,16 @@
                 <div class="central">
                     <div class="divits">
                         <div class="painel1">
-                            <label for="nomeresp">E-mail:</label>
-                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="E-mail..." maxlength="30">
                         </div>
                         <div class="painel1">
-                            <label for="nomeresp">Senha:</label>
-                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" placeholder="Senha...." maxlength="30">
                         </div>
                         <div class="painel1">
-                            <label for="nomeresp">Confirma Senha:</label>
-                            <input type="text" id="nomeresp" placeholder="Responsavel...." maxlength="30">
+                            <label for="nomesenha">Confirma Senha:</label>
+                            <input type="password" id="nomesenha" placeholder="Confirma..." maxlength="30">
                         </div>
                         <div class="painel1">
                             <label for="nomeresp">Nome Responsavel:</label>
@@ -80,11 +80,7 @@
                             <input type="date" id="pagm" placeholder="Ex:10/01">
                         </div>
                     </div>
-                    <div class="divits20">
-                        <label for="obs">Obesevaçoes</label>
-                        <textarea name="OBS" id="obs" cols="30" rows="3"></textarea>
-                    </div>
-                    <button class="btn"><a href="Tamag.html">Cadastra</a></button>
+                    <button class="btn" onclick="pontclick(); return false">Cadastra</button>
                 </div>
             </div>
 
