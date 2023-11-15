@@ -1,0 +1,75 @@
+body,html,#home{
+    height: 100%;
+    overflow-x:hidden;
+ }
+body{
+    background-image: linear-gradient(to left,blue,red);
+}
+.capa{
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: white;
+}
+#serviço{
+    background-color: white;
+    padding: 100px;
+}
+#serviço h2{
+    font-weight: 700;
+    letter-spacing: 0.05;
+    color: blue;
+}
+#serviço h3{
+    font-weight: 600;
+    letter-spacing: 0.05;
+    color: red;
+}
+.btn-custom{
+    color: black;
+    border-radius: 500px;
+    text-transform: uppercase;
+    padding:10px 15px ;
+}
+.btn-saiba{
+    border: 3px solid black;
+}
+.btn-saiba:hover{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+#recursos h3{
+    font-weight: 500;
+    letter-spacing: 0.05;
+    color: #d3d3d3;
+    border-radius: 20px;
+    width: 80%;
+}
+#recursos h2{
+    font-weight: 600;
+    letter-spacing: 0.05;
+    color: white;
+}
+#recursos p{
+    font-weight: 400;
+    letter-spacing: 0.05;
+    color: white;
+}
+#recursos hr{
+    background-color: white;
+}
+#footer{
+    background-color: white;
+    padding: 30px;
+}
+footer  a{
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+footer  a:hover{
+    color: #3e50eb;
+    text-decoration: none;
+}
