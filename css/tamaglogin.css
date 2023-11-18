@@ -1,9 +1,19 @@
 @keyframes tamg-anima{
-        from{
+        0%{
+            background-image: linear-gradient(to top,red,blue);
+        }
+        25%{
+            background-image: linear-gradient(to right,blue,red);
+        }
+        50%{
             background-image: linear-gradient(to bottom,red,blue);
         }
-        to{
-            background-image: linear-gradient(to right,blue,red);
+        75%{
+            background-image: linear-gradient(to left,blue,red);
+        }
+        100%{
+            background-image: linear-gradient(to top,red,blue);
+            
         }
 }
 body{
@@ -11,10 +21,6 @@ body{
 }
 .fundo{
     display: block;
-    background-image: linear-gradient(to bottom,red,blue);
-    padding: 60px 60px;
-    width: 600px;
-    height: 500px;
     position:absolute;
     left: 0;
     bottom: 0;
@@ -22,44 +28,28 @@ body{
     right: 0;
     margin: auto;
     border-radius: 15px;
-    animation: tamg-anima 3s 0s 60 alternate-reverse;
-   
+    animation: tamg-anima 5s linear infinite;
+    height: 400px;
+    width: 45%;
 }
 .menu{
     display: block;
     background-color: #002093;
     text-align: center;
-    padding: 40px ;
+    padding: 20px ;
     border-radius: 15px;
 }
 .menu_img{
     text-align: center;
     background-color: white;
-    border-radius: 10px;
-    margin: 0px 50px; 
-    padding: 30px;
 }
-.menu_login{
-    display: block;
-    margin: 15px;
-    padding: 15px;
-}
-@media screen and (max-width: 600px) {
+@media (max-width: 575.98px){
     .fundo{
-        width: 500px;
+        height: 560px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .fundo{
         height: 400px;
     }
-    .menu{
-        padding: 5px;
-    }
-    .menu_login{
-        margin: 5px;
-        padding: 5px;
-    }
-    .menu_img{
-        margin: 10px 120px;
-        padding: 30px;
-    }
 }
-
-

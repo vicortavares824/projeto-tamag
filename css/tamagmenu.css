@@ -1,12 +1,8 @@
-.input{
-    display: block;
-    background-color: #002093;
-    margin: 10px 40px;
-    padding: 10px 0px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-}
+
+body,html,#home{
+    height: 100%;
+    overflow-x:hidden ;
+ }
 .perfil{
     margin: 2px;
     padding: 3px;
@@ -19,15 +15,11 @@
     background-color: #002093;
     color: white;
 }
-.senha input:focus{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
+.form-control:focus{
+    background-color: #002093;
+    color: white;
 }
 .checkbox_menu{
-    margin: 20px 60px;
-    display: flex;
-    text-align: center;
     justify-content: space-evenly;
 }
 .input_checkbox{
@@ -36,12 +28,7 @@
 .esqueci a{
     color: brown;
 }
-.input_botao{
-    justify-content: space-evenly;
-}
 .botao_cadastra{
-    margin: 0px 20px;
-    padding: 10px 30px;
     border: none;
     border-radius: 10px;
     color: red;
@@ -49,8 +36,6 @@
     font-size: 20px;
 }
 .botao_login{
-    margin: 0px 20px;
-    padding: 10px 30px;
     border: none;
     border-radius: 10px;
     color: blue;
@@ -65,3 +50,11 @@
     background-color: red;
     color: white;
 }
+.btn a {
+    text-decoration:none;
+}
+.btn a:hover {
+    text-decoration:none;
+    color: white;
+}
+   
