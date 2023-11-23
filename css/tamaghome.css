@@ -1,56 +1,13 @@
-.tela207{
-    background-color: #013366;
-    width: 100%;
-}
-.imgtamag{
-    background-color: white;
-    padding: 30px 70px;
-    justify-content: space-evenly;
-}
-.hl-esquerdo{
-    display:block;
 
-    padding: 20px;
+.imgtamag{
+    padding: 30px 70px;
 }
-.hl-home-esquerdo{
-    display:inline-block;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.hl-texto{
-    display: block;
-    text-align: center;
-    padding: 5px;
-}
-.hl-esquerdo:hover{
+.fundo:hover{
     background-color:#f1f1f1;
     border-radius: 10pc;
     transition: 0.5s;
 }
-.perfil-pfcipal{
-    padding: 20px;
-    margin-top: 30px;
-}
-.botao_volta{
-    padding: 10px 20px ;
-    background-color:white;
-    border-radius: 20px;
-    border: none;
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 .separador1{
-    text-align: center;
-    padding: 10px;
+    text-align: center; 
  }
- .separador2{
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
- }
- .botao_volta:hover{
-    background-image: linear-gradient(to bottom,rgb(14, 16, 179),rgb(59, 59, 235));
-    color: white;
- }
+

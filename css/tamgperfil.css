@@ -4,10 +4,9 @@
     border-radius: 50px;
     color: black;
 }
-.perfil-20{
-    justify-content: space-evenly;
-}
-.perfil-10{
+
+body,.perfil-10{
+    height: 100%;
     width: 100%;
     background-color: #ECECEC ;
 }
@@ -19,8 +18,14 @@
     border-radius: 10px;
     border: 1px black solid;
     background-color: white;
-    margin: 10px 30px;
     padding: 10px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .perfil-pf1{
     margin: 20px 5px 0px 0px;
@@ -35,20 +40,4 @@
     font-size: 20px;
     border-bottom: 1px black solid;
     border-radius: 10px;
-
-}
-.conteinar-perfil{
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-}
-.conteinar-perfil2{
-        display: block;
-        margin: 10px;
-        padding: 20px;
-        justify-content: center;
-        overflow: hidden;
-}
-.bh{
-    text-align: center;
 }

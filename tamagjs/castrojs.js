@@ -13,6 +13,6 @@ function pontclick(){
         if(nome01.length == 0 && cpf01.length == 0 &&nomeluno.length == 0 &&cpfluno.length == 0 &&ender.length == 0 &&contato.length == 0 &&escola.length == 0 &&serie.length == 0 && entrada.length == 0 && saida.length == 0 ){
             alert("Prencha todos os campos ");
         }else{
-            location.href="../Tamag.html"
+            location.href="../Login.html"
         }
 }
