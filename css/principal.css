@@ -3,7 +3,7 @@ body,html,#home{
     overflow-x:hidden;
  }
 body{
-    background-image: linear-gradient(to left,blue,red);
+    background-image: linear-gradient(blue,red);
 }
 .capa{
     text-align: center;

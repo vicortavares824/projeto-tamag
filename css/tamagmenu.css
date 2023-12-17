@@ -12,11 +12,11 @@ body,html,#home{
 }
 .senha input{
     border: none;
-    background-color: #002093;
+    background-color: #0329b4c0;
     color: white;
 }
 .form-control:focus{
-    background-color: #002093;
+    background-color: #0329b4c0;
     color: white;
 }
 .checkbox_menu{
@@ -45,10 +45,12 @@ body,html,#home{
 .botao_cadastra:hover{
     background-color: blue;
     color:white;
+    transform:scale(1.06);
 }
 .botao_login:hover{
     background-color: red;
     color: white;
+    transform:scale(1.06);
 }
 .btn a {
     text-decoration:none;

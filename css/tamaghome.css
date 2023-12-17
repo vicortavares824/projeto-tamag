@@ -6,6 +6,7 @@
     background-color:#f1f1f1;
     border-radius: 10pc;
     transition: 0.5s;
+    transform: scale(1.04);
 }
 .separador1{
     text-align: center; 
