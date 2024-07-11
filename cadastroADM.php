@@ -1,3 +1,6 @@
+<?php
+echo "ola"
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,22 +12,22 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/principal.css">
-    <link rel="stylesheet" href="csscadastro/cadastro.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
-    <script src="./tamagjs/castrojs.js" defer></script>
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./csscadastro/cadastro.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="shortcut icon" href="./img/tamaglogo.png" type="image/x-icon">
+    <script src="./tamagjs/castrojsADM.js" defer></script>
 </head>
 
 <body>
-    <form action="">
+    <form>
         <header class="tela207">
-            <a href="Login.html"><img src="/img/tamaglogo.png" alt="telatamag" class="imgtamag" width="150px"></a>
+            <a href="LoginADM.php"><img src="./img/tamaglogo.png" alt="telatamag" class="imgtamag" width="150px"></a>
         </header>
         <div class="telaprim container">
             <div class="row bg-white rounded">
                 <div class="col-md-12 d-flex flex-wrap">
-                    <div class="divits col-md-6">
+                    <div class="divits col-md-12">
                         <div class=" painel1 form-group m-4 item">
                             <label for="email">E-mail:</label>
                             <input class="form-control form-control-sm" type="email" id="email" placeholder="E-mail..."
@@ -41,27 +44,15 @@
                                 placeholder="Confirma..." maxlength="30" required>
                         </div>
                         <div class="painel1 form-group m-4 item">
-                            <label for="nomeresp">Nome Responsavel:</label>
-                            <input class="form-control form-control-sm" type="text" id="nomeresp"
-                                placeholder="Responsavel...." maxlength="30" required>
-                        </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="cpfresp">CPF Responsavel:</label>
-                            <input class="form-control form-control-sm" type="number" id="cpfresp" placeholder="CPF..."
-                                min="0" max="10" required>
-                        </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="nomealuno">Nome Aluno:</label>
-                            <input class="form-control form-control-sm" type="text" id="nomealuno"
+                            <label for="nomealuno">Nome</label>
+                            <input class="form-control form-control-sm" type="text" id="nome"
                                 placeholder="Aluno..." maxlength="30" required>
                         </div>
                         <div class="painel1 form-group m-4 item">
-                            <label for="cpfaluno">CPF Aluno:</label>
-                            <input class="form-control form-control-sm" type="number" id="cpfaluno" placeholder="CPF..."
+                            <label for="cpfaluno">CPF</label>
+                            <input class="form-control form-control-sm" type="number" id="cpf" placeholder="CPF..."
                                 min="0" max="10" required>
                         </div>
-                    </div>
-                    <div class="divits col-md-6  ">
                         <div class="painel1 form-group m-4 item">
                             <label for="endre">Endereço:</label>
                             <input class="form-control form-control-sm" type="text" id="endre"
@@ -73,30 +64,11 @@
                                 placeholder="(xx) xxxx-xxxx" maxlength="11" required>
                         </div>
                         <div class="painel1 form-group m-4 item">
-                            <label for="escol">Escola:</label>
-                            <input class="form-control form-control-sm" type="text" id="escol"
-                                placeholder="Ex:escola antonio" maxlength="40" required>
+                            <label for="codi">Codigo Da Empresa:</label>
+                            <input class="form-control form-control-sm" type="text" id="codi"
+                                placeholder="Codigo Da Empresa" maxlength="7" required>
                         </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="peri">Serie:</label>
-                            <input class="form-control form-control-sm" type="text" id="peri" placeholder="5B" size="1"
-                                maxlength="2" required>
-                        </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="horaent">Horario da entrada:</label>
-                            <input class="form-control form-control-sm" type="time" id="horaent" placeholder="Ex:10:30"
-                                required>
-                        </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="horasaid">Horario da saida:</label>
-                            <input class="form-control form-control-sm" type="time" id="horasaid" placeholder="Ex:18:30"
-                                required>
-                        </div>
-                        <div class="painel1 form-group m-4 item">
-                            <label for="pagm">Data de pagamento:</label>
-                            <input class="form-control form-control-sm" type="date" id="pagm" placeholder="Ex:10/01"
-                                required class="input_user">
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="btn-group w-100 justify-content-center m-5"><button class="btn btn-outline-primary" onclick="pontclick(); return false">Cadastra</button></div>

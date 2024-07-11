@@ -1,3 +1,4 @@
+<?php require_once "../pastaphp/validar_aluno.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,10 +9,10 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/tamaghome.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/tamgperfil.css">
-    <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/tamaghome.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/tamgperfil.css">
+    <link rel="shortcut icon" href="../img/icontamg.png" type="image/x-icon">
     <title>Tamag</title>
 </head>
 
@@ -19,7 +20,7 @@
     <header>
 
         <nav class="navbar navbar-expand-md navbar-dark  bg-primary ">
-            <div class="container"> <a href="/Login.html" class="navbar-brand"><img src="/img/icontamg.png" alt="tamag"
+            <div class="container"> <a href="../Login.php" class="navbar-brand"><img src="../img/icontamg.png" alt="tamag"
                         width="130px" class="bg-white rounded"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbar"
                     aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -28,27 +29,27 @@
                 <div class="collapse navbar-collapse justify-content-center " id="conteudoNavbar">
                     <ul class="navbar-nav separador1  ">
                         <li class="nav-item p-3  fundo mr-4 ml-4 ">
-                            <a href="perfil.html"> <img src="/img2/perfil2.png" alt="perfil" class="img-fluid"
+                            <a href="perfil.php"> <img src="../img2/perfil2.png" alt="perfil" class="img-fluid"
                                     width="70px"></a>
                             <h1 class="separador1 pt-3">Perfil</h1>
                         </li>
                         <li class="nav-item fundo p-3 mr-4  ml-4">
-                            <a href="horario.html"><img src="/img2/horario.png" alt="calendario" class="img-fluid"
+                            <a href="horario.php"><img src="../img2/horario.png" alt="calendario" class="img-fluid"
                                     width="70px"></a>
                             <h1 class="separador1 pt-3">Horario</h1>
                         </li>
                         <li class="nav-item p-3  fundo mr-4  ml-4">
-                            <a href="finaceiro.html"><img src="/img2/dinheiro.png" alt="dinheiro" class="img-fluid"
+                            <a href="finaceiro.php"><img src="../img2/dinheiro.png" alt="dinheiro" class="img-fluid"
                                     width="70px"></a>
                             <h1 class="separador1 pt-3">Financeiro</h1>
                         </li>
                         <li class="nav-item p-3  fundo mr-4  ml-4">
-                            <a href="contato.html"><img src="/img2/contato.png" alt="contato" class="img-fluid"
+                            <a href="contato.php"><img src="../img2/contato.png" alt="contato" class="img-fluid"
                                     width="70px"></a>
                             <h1 class="separador1 pt-3">Contato</h1>
                         </li>
                         <li class="nav-item p-3  fundo mr-4  ml-4">
-                            <a href="../Login.html"><img src="/img2/sair.png" alt="contato" class="img-fluid"
+                            <a href="../pastaphp/sair.php"><img src="../img2/sair.png" alt="contato" class="img-fluid"
                                     width="65px"></a>
                             <h1 class="separador1 pt-3">Sair</h1>
                         </li>

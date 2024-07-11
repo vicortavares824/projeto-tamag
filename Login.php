@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,13 +9,13 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/tamagmenu.css">
-    <link rel="stylesheet" href="/css/tamaglogin.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="shortcut icon" href="/img/icontamg.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/tamagmenu.css">
+    <link rel="stylesheet" href="./css/Tamaglogin.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="shortcut icon" href="./img/icontamg.png" type="image/x-icon">
     <title>Tamag</title>
 </head>
-<script lang="javascript" src="/tamagjs/tamagjs.js"></script>
+<script lang="javascript" src="./tamagjs/tamagjs.js"></script>
 
 <body>
     <section id="home" class="d-flex">
@@ -24,31 +25,39 @@
                 
                     <div class="menu col-md-12 ">
                         <header class="menu_img m-3 p-2 rounded">
-                            <a href="principal.html"><img src="/img/tamaglogo.png" alt="tamag" class="img-fluid"></a>
+                            <a href="index.html"><img src="./img/tamaglogo.png" alt="tamag" class="img-fluid"></a>
                         </header>
-                        <div class="col-md-12 ">
+                        <form action="./pastaphp/validaçao.php" method="post" class="col-md-12 ">
                             <div class="d-flex form-group justify-content-center m-4 flex-wrap">
-                                <label for="login" class="perfil"><img src="/img/fotoperfil.png" alt="perfil"></label>
+                                <label for="login" class="perfil"><img src="./img/fotoperfil.png" alt="perfil"></label>
                                 <div class="senha"><input class="form-control form-control-sm" type="email"
-                                        placeholder="Email" id="login"></div>
+                                        placeholder="Email" id="login" name="email"></div>
                             </div>
                             <div class="d-flex form-group justify-content-center  m-4 flex-wrap">
-                                <label for="senha" class="perfil"><img src="/img/fotosenha.png" alt="senha"></label>
+                                <label for="senha" class="perfil"><img src="./img/fotosenha.png" alt="senha"></label>
                                 <div class="senha"><input class="form-control form-control-sm" type="password"
-                                        placeholder="Password" id="senha"></div>
+                                        placeholder="Password" id="senha" name='senha'></div>
                             </div>
-                            <div class="d-flex form-group justify-content-center mt-3 flex-wrap">
-                                <div class="input_checkbox m-2"><input type="checkbox" name="lembrar"
-                                        id="verificaçao">Lembrar</div>
+                                <?php if(isset($_GET['login']) && $_GET['login'] == 'false'){?>
+                                <div class="text-info">
+                                    Usuário ou  senha inválido(s)
+                                </div>
+                                <?php } ?>
+                                <?php if(isset($_GET['login']) && $_GET['login'] == 'false2'){?>
+                                <div class="text-info">
+                                    Faça Login antes de acessar as páginas protegidas
+                                </div>
+                                <?php } ?>
+                            <div class="d-flex form-group justify-content-center mt-3 flex-wrap form-check form-switch">
                                 <div class="esqueci m-2"><a href="#">Esqueci minha senha</a></div>
                             </div>
                             <div class="d-flex justify-content-center mt-3 flex-wrap">
                                 <div class="mr-4"> <button class="btn btn-lg botao_cadastra "><a
-                                            href="cadastro.html">Cadastrar</a></button></div>
-                                <div class="ml-4"> <button class="btn btn-lg botao_login"><a
-                                            href="pagina home/perfil.html">Login</a></button></div>
+                                            href="cadastro.php">Cadastrar</a></button></div>
+                                <div class="ml-4" > <button class="btn btn-lg botao_login" type="submit">
+                                            Login</button></div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </nav>
